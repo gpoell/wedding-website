@@ -1,5 +1,5 @@
 export const styles = {
-  homeMain: {
+  photo: {
     height: 350,
     width: 300,
     borderRadius: "50%",
@@ -10,5 +10,8 @@ export const styles = {
   decor: {
     height: 200,
     width: 300
+  },
+  container: {
+    marginBottom: 10
   }
 };

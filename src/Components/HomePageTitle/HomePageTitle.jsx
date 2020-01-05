@@ -7,26 +7,14 @@ import { styles } from "./styles";
 
 const HomePageTitle = () => {
   return (
-    <Grid container justify='center' direction='row'>
-      <Grid container item sm={3} justify='flex-end' alignContent='center'>
+    <Grid container justify='center' direction='row' style={styles.container}>
+      <Grid container item xs={3} justify='flex-end' alignContent='center'>
         <img src={imgFloralRight} alt='floral design' style={styles.decor} />
       </Grid>
-      <Grid
-        container
-        item
-        sm={3}
-        alignItems='center'
-        alignContent='center'
-        justify='center'
-        alignItems='center'
-      >
-        <img
-          src={imgHomeCent}
-          alt='Garrett and Kelsey'
-          style={styles.homeMain}
-        />
+      <Grid container item xs={3} alignContent='center' justify='center'>
+        <img src={imgHomeCent} alt='Garrett and Kelsey' style={styles.photo} />
       </Grid>
-      <Grid container item sm={3} justify='flex-start' alignContent='center'>
+      <Grid container item xs={3} justify='flex-start' alignContent='center'>
         <img src={imgFloralLeft} alt='floral design' style={styles.decor} />
       </Grid>
     </Grid>
