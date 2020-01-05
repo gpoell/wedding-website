@@ -1,11 +1,11 @@
 export const styles = {
-  header: {
-    padding: "100px"
+  container: {
+    border: "1px solid",
+    minHeight: "450px",
+    padding: 20
   },
-  content: {
-    marginLeft: "auto",
-    marginRight: "auto",
-    textAlign: "center",
-    fontSize: "200%"
+  photo: {
+    width: 500,
+    height: 400
   }
 };
