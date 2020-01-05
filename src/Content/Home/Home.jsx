@@ -1,26 +1,31 @@
-import React, { useState } from "react";
+import React from "react";
 import Grid from "@material-ui/core/Grid";
-import HomePageTitle from "../../Components/HomePageTitle/HomePageTitle";
-import Navigation from "../../Components/Navigation/Navigation";
+import home1 from "../../Images/home1.JPEG";
+import { styles } from "./styles";
 
 const Home = () => {
-  // const isMobileDevice = () => {
-  //   return (
-  //     typeof window.orientation !== "undefined" ||
-  //     navigator.userAgent.indexOf("IEMobile") !== -1
-  //   );
-  // };
-  const [value, setValue] = useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
-
   return (
-    <Grid container>
-      <HomePageTitle />
-      <Navigation value={value} handleChange={handleChange} />
-    </Grid>
+    <>
+      <Grid container item xs={6}>
+        <h1>Hello Friends and Family!</h1>
+        <p>
+          We are very excited to share our special day with you all and we are
+          counting down the days to our big wedding day!
+        </p>
+        <p>
+          We hope we have provided you with all of the information you will
+          need, so please navigate through each of the tabs to find more details
+          on our wedding weekend.
+        </p>
+        <p>
+          Looking forward to seeing you all and feel free to reach out with
+          additional questions.
+        </p>
+      </Grid>
+      <Grid container item xs={6} justify='flex-end'>
+        <img src={home1} alt='Kelsey and Garrett' style={styles.photo} />
+      </Grid>
+    </>
   );
 };
 
