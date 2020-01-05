@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import HomePageTitle from "../../Components/HomePageTitle/HomePageTitle";
-import { styles } from "./styles";
+import Navigation from "../../Components/Navigation/Navigation";
 
 const Home = () => {
   // const isMobileDevice = () => {
@@ -10,15 +10,16 @@ const Home = () => {
   //     navigator.userAgent.indexOf("IEMobile") !== -1
   //   );
   // };
-  // const [mobile, setMobile] = useState(false);
+  const [value, setValue] = useState(0);
 
-  // useEffect(() => {
-  //   console.log(isMobileDevice());
-  // }, []);
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
   return (
     <Grid container>
       <HomePageTitle />
+      <Navigation value={value} handleChange={handleChange} />
     </Grid>
   );
 };
