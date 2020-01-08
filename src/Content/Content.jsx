@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Grid from "@material-ui/core/Grid";
 import HomePageTitle from "../Components/HomePageTitle/HomePageTitle";
 import Navigation from "../Components/Navigation/Navigation";
+import ContentWrapper from "../Components/ContentWrapper/ContentWrapper";
 import Home from "./Home/Home";
 import { styles } from "./styles";
 
@@ -22,9 +23,7 @@ const Content = () => {
     <Grid container justify='center'>
       <HomePageTitle />
       <Navigation value={value} handleChange={handleChange} />
-      <Grid container item xs={7} style={styles.sections}>
-        {value === 0 && <Home />}
-      </Grid>
+      <ContentWrapper>{value === 0 && <Home />}</ContentWrapper>
     </Grid>
   );
 };

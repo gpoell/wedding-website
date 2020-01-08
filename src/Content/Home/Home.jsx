@@ -6,7 +6,7 @@ import { styles } from "./styles";
 const Home = () => {
   return (
     <>
-      <Grid container item xs={6}>
+      <Grid container item md={6} style={styles.container}>
         <h1>Hello Friends and Family!</h1>
         <p>
           We are very excited to share our special day with you all and we are
@@ -22,7 +22,7 @@ const Home = () => {
           additional questions.
         </p>
       </Grid>
-      <Grid container item xs={6} justify='flex-end'>
+      <Grid container item md={6} justify='flex-end' alignContent='left'>
         <img src={home1} alt='Kelsey and Garrett' style={styles.photo} />
       </Grid>
     </>
