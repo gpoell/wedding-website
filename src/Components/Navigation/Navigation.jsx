@@ -7,7 +7,6 @@ import { styles } from "./styles";
 const Navigation = props => {
   const tabs = [
     "Home",
-    "Wedding Venue",
     "Weekend Schedule",
     "Travel",
     "Accomodations",
@@ -15,7 +14,7 @@ const Navigation = props => {
   ];
 
   return (
-    <Grid container justify='center'>
+    <Grid container justify='center' style={styles.container}>
       <Grid
         container
         item

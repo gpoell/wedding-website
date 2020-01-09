@@ -1,6 +1,6 @@
 export const styles = {
   container: {
-    marginTop: 10,
-    marginBottom: 10
+    paddingTop: 10,
+    paddingBottom: 10
   }
 };
