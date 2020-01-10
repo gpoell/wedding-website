@@ -12,6 +12,7 @@ export const styles = {
     width: 300
   },
   container: {
-    marginBottom: 10
+    paddingBottom: 20,
+    backgroundColor: "#ffff"
   }
 };
