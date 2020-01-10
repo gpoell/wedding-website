@@ -2,12 +2,12 @@ import React from "react";
 import Grid from "@material-ui/core/Grid";
 import { styles } from "./styles";
 
-const ContentWrapper = props => {
+const ContentContainer = props => {
   return (
-    <Grid container style={styles.container} md={8} xs={12}>
+    <Grid container item md={6} style={styles.container} alignContent='center'>
       {props.children}
     </Grid>
   );
 };
 
-export default ContentWrapper;
+export default ContentContainer;
