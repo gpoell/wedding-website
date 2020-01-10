@@ -22,15 +22,16 @@ export default createMuiTheme({
   overrides: {
     MuiTypography: {
       h1: {
-        fontFamily: ["Georgia, Georgia"],
+        fontFamily: "Georgia",
         fontSize: "5rem",
         fontWeight: 700,
         marginBottom: "1rem"
       },
       body1: {
-        fontFamily: ["Verdana"],
-        fontSize: "1rem",
-        marginBottom: 10
+        fontFamily: "Verdana",
+        fontSize: "1.125rem",
+        fontWeight: 400,
+        marginBottom: 20
       }
     }
   }

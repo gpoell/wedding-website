@@ -28,8 +28,8 @@ const Navigation = props => {
           onChange={props.handleChange}
           variant='scrollable'
           scrollButtons='on'
-          indicatorColor='primary'
-          textColor='primary'
+          indicatorColor='secondary'
+          textColor='secondary'
           aria-label='scrollable force tabs example'
         >
           {tabs.map(tab => {

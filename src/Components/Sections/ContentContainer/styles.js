@@ -1,5 +1,5 @@
 export const styles = {
   container: {
-    padding: 20
+    padding: 30
   }
 };
