@@ -15,13 +15,14 @@ const Home = () => {
           counting down the days to our big wedding day!
         </Typography>
         <Typography variant='body1'>
-          We hope we have provided you with all of the information you will
-          need, so please navigate through each of the tabs to find more details
-          on our wedding weekend.
+          The wedding will take place in the heart of the beautiful town,
+          Highlands. This place is very special to us ever since we started
+          frequently visiting back when we first started dating.
         </Typography>
         <Typography variant='body1'>
-          Looking forward to seeing you all and feel free to reach out with
-          additional questions.
+          Hopefully this website serves as the source for all of your answers,
+          so please navigate through each of the tabs to find more details on
+          our wedding weekend.
         </Typography>
       </ContentContainer>
       <ImageContainer>

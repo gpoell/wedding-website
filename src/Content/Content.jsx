@@ -21,7 +21,7 @@ const Content = () => {
   };
 
   return (
-    <Grid container justify='center'>
+    <Grid container justify='space-evenly'>
       <HomePageTitle />
       <Navigation value={value} handleChange={handleChange} />
       <Sections>
