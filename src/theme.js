@@ -13,9 +13,9 @@ export default createMuiTheme({
     }
   },
   typography: {
-    fontSize: "3rem",
-    "@media (min-width:600px)": {
-      fontSize: "4.5rem"
+    fontSize: 18,
+    "@media (min-width:400px)": {
+      fontSize: 8
     },
     fontFamily: ["Verdana"]
   },
@@ -23,15 +23,36 @@ export default createMuiTheme({
     MuiTypography: {
       h1: {
         fontFamily: "Georgia",
-        fontSize: "5rem",
+        fontSize: 44,
         fontWeight: 700,
         marginBottom: "1rem"
       },
+      h2: {
+        fontFamily: "Georgia",
+        fontSize: 44,
+        fontWeight: 700,
+        marginBottom: 15
+      },
+      h3: {
+        fontFamily: "Georgia",
+        fontSize: 34,
+        fontWeight: 400
+      },
       body1: {
         fontFamily: "Verdana",
-        fontSize: "1.125rem",
+        fontSize: 16,
         fontWeight: 400,
         marginBottom: 20
+      },
+      subtitle1: {
+        fontFamily: "Verdana",
+        fontSize: 24,
+        fontWeight: 500
+      },
+      subtitle2: {
+        fontFamily: "Verdana",
+        fontSize: 18,
+        fontWeight: 200
       }
     }
   }
