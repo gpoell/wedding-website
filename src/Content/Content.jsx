@@ -5,6 +5,7 @@ import Navigation from "../Components/Navigation/Navigation";
 import Sections from "../Components/Sections/Sections";
 import Home from "./Home/Home";
 import Weekend from "./Weekend/Weekend";
+import Travel from "./Travel/Travel.jsx";
 import Footer from "../Components/Footer/Footer";
 
 const Content = () => {
@@ -14,7 +15,7 @@ const Content = () => {
   //     navigator.userAgent.indexOf("IEMobile") !== -1
   //   );
   // };
-  const [value, setValue] = useState(1);
+  const [value, setValue] = useState(2);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -27,6 +28,7 @@ const Content = () => {
       <Sections>
         {value === 0 && <Home />}
         {value === 1 && <Weekend />}
+        {value === 2 && <Travel />}
       </Sections>
       <Footer />
     </Grid>

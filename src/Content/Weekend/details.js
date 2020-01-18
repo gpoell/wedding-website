@@ -1,6 +1,3 @@
-import venue from "../../Images/venue.jpg";
-import lakehouse from "../../Images/lakehouse.jpeg";
-
 export const details = {
   lake: {
     header: "Manning Family Lakehouse",
