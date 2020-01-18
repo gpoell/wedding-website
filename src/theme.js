@@ -20,6 +20,19 @@ export default createMuiTheme({
     fontFamily: ["Verdana"]
   },
   overrides: {
+    MuiCard: {
+      root: {
+        marginTop: 30,
+        marginBottom: 30,
+        boxShadow: "0 0 1.5rem rgba(105,105,105,.5)"
+      }
+    },
+    MuiCardContent: {
+      root: {
+        alignItems: "center",
+        display: "flex"
+      }
+    },
     MuiTypography: {
       h1: {
         fontFamily: "Georgia",
