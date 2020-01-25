@@ -3,13 +3,14 @@ import { createMuiTheme } from "@material-ui/core/styles";
 export default createMuiTheme({
   palette: {
     primary: {
-      main: "#ABA6D5"
+      main: "#d4af37",
+      dark: "#d4af37"
     },
     secondary: {
-      main: "#8078BF"
+      main: "#d4af37"
     },
     grey: {
-      main: "#C1BDE0"
+      main: "#f6f6f6"
     }
   },
   typography: {
@@ -58,11 +59,26 @@ export default createMuiTheme({
           fontSize: 16
         }
       },
+      h5: {
+        fontFamily: "Georgia",
+        fontSize: 24,
+        marginTop: 10,
+        "@media (max-width:800px)": {
+          fontSize: 18
+        }
+      },
       body1: {
         fontFamily: "Verdana",
         fontSize: 16,
         fontWeight: 400,
         marginBottom: 20
+      },
+      body2: {
+        fontFamily: "Verdana",
+        fontSize: 16,
+        "@media (max-width:800px)": {
+          fontSize: 12
+        }
       },
       subtitle1: {
         fontFamily: "Verdana",

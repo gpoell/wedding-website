@@ -1,10 +1,19 @@
 export const styles = {
   container: {
-    backgroundColor: "#ABA6D5",
-    padding: 40
+    backgroundColor: "#f6f6f6",
+    paddingTop: 60,
+    paddingBottom: 60,
+    display: "block",
+    textAlign: "center"
   },
   icon: {
-    height: "40px",
-    width: "40px"
+    height: 40,
+    width: 40,
+    paddingLeft: 20,
+    paddingRight: 20
+  },
+  content: {
+    display: "block",
+    textAlign: "center"
   }
 };
