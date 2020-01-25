@@ -1,20 +1,24 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
-import imgHomeCent from "../../Images/centerpiece.JPEG";
 import Grid from "@material-ui/core/Grid";
+import img from "../../Images/Header/desktop.jpg";
 import { styles } from "./styles";
 
 const HomePageTitle = () => {
   return (
-    <Grid container justify='center' direction='row' style={styles.container}>
-      <Grid container item md={3} justify='center' alignContent='center'>
-        <Typography variant='h3'>Highlands, North Carolina</Typography>
-      </Grid>
-      <Grid container item md={3} alignContent='center' justify='center'>
-        <img src={imgHomeCent} alt='Garrett and Kelsey' style={styles.photo} />
-      </Grid>
-      <Grid container item md={3} justify='center' alignContent='center'>
-        <Typography variant='h3'>September 12, 2020</Typography>
+    <Grid
+      container
+      justify='center'
+      direction='row'
+      alignContent='center'
+      alignItems='center'
+    >
+      <img src={img} alt='' style={styles.image} />
+      <Grid container item lg={8} style={styles.title}>
+        <Typography variant='h1'>
+          Kelsey <span style={styles.and}>and</span> Garrett
+        </Typography>
+        <Typography variant='h3'>Highlands, NC | September 12, 2020</Typography>
       </Grid>
     </Grid>
   );

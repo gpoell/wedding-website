@@ -8,7 +8,7 @@ import { styles } from "./styles";
 const Travel = () => {
   return (
     <Grid container item md={10} style={styles.container}>
-      <Typography variant='h1'>Travel Recommendations</Typography>
+      <Typography variant='h2'>Travel Recommendations</Typography>
       <Typography variant='body1'>
         We greatly appreciate everyone's effort to travel to Highlands to share
         our special day, especially those who will need to fly. Below are the

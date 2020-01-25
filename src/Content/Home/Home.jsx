@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <ContentContainer>
-        <Typography variant='h1'>Welcome</Typography>
+        <Typography variant='h2'>Welcome</Typography>
         <Typography variant='body1'>
           We are very excited to share our special day with you all and we are
           counting down the days to our big wedding day!

@@ -1,18 +1,17 @@
 export const styles = {
-  photo: {
-    height: 350,
-    width: 300,
-    borderRadius: "50%",
-    background: "linear-gradient(to right, #ABA6D5, #8078BF",
-    padding: 4,
-    border: "1px solid white"
+  title: {
+    display: "block",
+    textAlign: "center",
+    paddingTop: 30,
+    paddingBottom: 30,
+    position: "absolute"
   },
-  decor: {
-    height: 200,
-    width: 300
+  and: {
+    fontSize: 34
   },
-  container: {
-    paddingBottom: 20,
-    backgroundColor: "#ffff"
+  image: {
+    maxHeight: 500,
+    width: "100%",
+    position: "relative"
   }
 };

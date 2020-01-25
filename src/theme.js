@@ -35,10 +35,14 @@ export default createMuiTheme({
     },
     MuiTypography: {
       h1: {
-        fontFamily: "Georgia",
-        fontSize: 44,
-        fontWeight: 700,
-        marginBottom: "1rem"
+        fontFamily: "Pinyon Script, cursive;",
+        fontSize: 120,
+        fontWeight: 200,
+        marginBottom: "1rem",
+        "@media (max-width:800px)": {
+          fontSize: 60,
+          fontWeight: 400
+        }
       },
       h2: {
         fontFamily: "Georgia",
@@ -48,8 +52,11 @@ export default createMuiTheme({
       },
       h3: {
         fontFamily: "Georgia",
-        fontSize: 34,
-        fontWeight: 400
+        fontSize: 24,
+        fontWeight: 400,
+        "@media (max-width:800px)": {
+          fontSize: 16
+        }
       },
       body1: {
         fontFamily: "Verdana",
