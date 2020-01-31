@@ -15,14 +15,7 @@ const Navigation = props => {
 
   return (
     <Grid container justify='center' style={styles.container}>
-      <Grid
-        container
-        item
-        xs={12}
-        md={8}
-        justify='center'
-        style={styles.container}
-      >
+      <Grid container item xs={12} justify='center' style={styles.container}>
         <Tabs
           value={props.value}
           onChange={props.handleChange}
@@ -30,10 +23,18 @@ const Navigation = props => {
           scrollButtons='on'
           indicatorColor='primary'
           textColor='primary'
-          aria-label='scrollable force tabs example'
+          aria-label='scrollable tabs for navigating the site'
         >
           {tabs.map(tab => {
-            return <Tab label={tab} key={tab} name={tab} />;
+            return (
+              <Tab
+                label={tab}
+                key={tab}
+                name={tab}
+                disabled={tab === "Registry" && true}
+                style={styles.tab}
+              />
+            );
           })}
         </Tabs>
       </Grid>

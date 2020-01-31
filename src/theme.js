@@ -36,9 +36,9 @@ export default createMuiTheme({
     },
     MuiTypography: {
       h1: {
-        fontFamily: "Pinyon Script, cursive;",
-        fontSize: 120,
-        fontWeight: 200,
+        fontFamily: "KaushanScriptRegular",
+        fontSize: 100,
+        letterSpacing: 25,
         marginBottom: "1rem",
         "@media (max-width:800px)": {
           fontSize: 60,
