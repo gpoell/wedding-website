@@ -10,7 +10,7 @@ export const styles = {
     fontSize: 34
   },
   image: {
-    maxHeight: 500,
+    maxHeight: 450,
     width: "100%",
     position: "relative"
   }
