@@ -34,7 +34,7 @@ const Weekend = () => {
       </Grid>
       <Grid container item xs={12} style={styles.rows}>
         <ContentContainer>
-          <Typography variant='h1'>Rehearsal Dinner</Typography>
+          <Typography variant='h2'>Rehearsal Dinner</Typography>
           <Typography variant='body1'>
             The rehearsal dinner will take place at Highlands Wine Shoppe
             located in town and within walking distance from your hotels. For
@@ -52,7 +52,7 @@ const Weekend = () => {
           <img src={venue} alt='Kelsey and Garrett' style={styles.photo} />
         </ImageContainer>
         <ContentContainer>
-          <Typography variant='h1'>Wedding</Typography>
+          <Typography variant='h2'>Wedding</Typography>
           <Typography variant='body1'>
             We are very excited to share our special day with you all and we are
             counting down the days to our big wedding day!

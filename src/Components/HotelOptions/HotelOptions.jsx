@@ -35,7 +35,6 @@ const HotelOptions = props => {
                 <Button
                   href={option.website}
                   target='_blank'
-                  color='black'
                   variant='outlined'
                   style={styles.button}
                 >

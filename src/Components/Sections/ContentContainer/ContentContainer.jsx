@@ -4,7 +4,14 @@ import { styles } from "./styles";
 
 const ContentContainer = props => {
   return (
-    <Grid container item md={6} style={styles.container} alignContent='center'>
+    <Grid
+      container
+      item
+      md={6}
+      xs={12}
+      style={styles.container}
+      alignContent='center'
+    >
       {props.children}
     </Grid>
   );

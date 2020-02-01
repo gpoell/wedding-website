@@ -4,8 +4,8 @@ export const styles = {
   },
   card: {
     width: 450,
-    border: "3px solid",
-    borderColor: "#ABA6D5"
+    border: "0.5px solid",
+    borderColor: "#d4af37"
   },
   media: {
     height: 200

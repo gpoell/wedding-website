@@ -3,14 +3,13 @@ export const styles = {
     display: "block",
     textAlign: "center",
     paddingTop: 30,
-    paddingBottom: 30,
-    position: "absolute"
+    paddingBottom: 30
   },
   and: {
-    fontSize: 34
+    fontSize: 80
   },
   image: {
-    maxHeight: 450,
+    maxHeight: 350,
     width: "100%",
     position: "relative"
   }

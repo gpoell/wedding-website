@@ -8,8 +8,8 @@ import { Typography } from "@material-ui/core";
 const Footer = () => {
   return (
     <Grid container style={styles.container}>
-      <Grid container item xs={12} justify='center'>
-        <Typography variant='h5'>Save The Date</Typography>
+      <Grid container item xs={12} justify='center' className='container'>
+        <Typography variant='h5'>Highlands, NC</Typography>
         <img src={imgMountains} alt='Mountains icon' style={styles.icon} />
         <Typography variant='h5'>September 12, 2020</Typography>
       </Grid>

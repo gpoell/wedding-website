@@ -8,7 +8,9 @@ export const styles = {
   },
   paper: {
     marginBottom: 20,
-    marginTop: 20
+    marginTop: 20,
+    border: "0.5px solid",
+    borderColor: "#d4af37"
   },
   details: {
     display: "block"

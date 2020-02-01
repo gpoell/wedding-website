@@ -2,7 +2,6 @@ import React from "react";
 import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Grid from "@material-ui/core/Grid";
-import { styles } from "./styles";
 
 const Navigation = props => {
   const tabs = [
@@ -14,8 +13,8 @@ const Navigation = props => {
   ];
 
   return (
-    <Grid container justify='center' style={styles.container}>
-      <Grid container item xs={12} justify='center' style={styles.container}>
+    <Grid container justify='center'>
+      <Grid container item xs={12} justify='center'>
         <Tabs
           value={props.value}
           onChange={props.handleChange}
@@ -32,7 +31,6 @@ const Navigation = props => {
                 key={tab}
                 name={tab}
                 disabled={tab === "Registry" && true}
-                style={styles.tab}
               />
             );
           })}
