@@ -69,10 +69,10 @@ export default createMuiTheme({
       },
       // Title Subheader - "Highlands, NC | September 2020"
       h3: {
-        fontFamily: "Verdana",
+        fontFamily: "Georgia",
         fontSize: 24,
         fontWeight: 500,
-        opacity: 0.6,
+        color: "#d4af37",
         "@media (max-width:800px)": {
           fontSize: 16
         }
@@ -111,8 +111,7 @@ export default createMuiTheme({
       // Subtitle header for details | ex: Weekend Schedule details
       subtitle1: {
         fontFamily: "Verdana",
-        fontSize: 24,
-        fontWeight: 600,
+        fontSize: 20,
         marginBottom: 10
       },
       // Subtitle body for details | ex: location, time, etc..
