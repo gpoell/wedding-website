@@ -1,10 +1,10 @@
 import imgMitchellsLodge from "../../Images/Accommodations/mitchell_lodge.jpg";
-import imgHighlandInnLodge from "../../Images/Accommodations1/highlands-inn-lodge.jpg";
-import img200Main from "../../Images/Accommodations1/200-main.jpg";
-import imgParkMain from "../../Images/Accommodations1/park-on-main.jpg";
-import imgMainStInn from "../../Images/Accommodations1/main-street-inn.jpg";
-import imgOldEdwards from "../../Images/Accommodations1/old-edwards-inn.jpg";
-import imgChandlerInn from "../../Images/Accommodations1/the-chandler-inn.jpg";
+import imgHighlandInnLodge from "../../Images/Accommodations/highlands-inn-lodge.jpg";
+import img200Main from "../../Images/Accommodations/200-main.jpg";
+import imgParkMain from "../../Images/Accommodations/park-on-main.jpg";
+import imgMainStInn from "../../Images/Accommodations/main-street-inn.jpg";
+import imgOldEdwards from "../../Images/Accommodations/old-edwards-inn.jpg";
+import imgChandlerInn from "../../Images/Accommodations/the-chandler-inn.jpg";
 
 export const options = [
   {
