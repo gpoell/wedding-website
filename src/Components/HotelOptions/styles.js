@@ -1,10 +1,14 @@
 export const styles = {
+  container: {
+    minHeight: 225
+  },
   image: {
-    height: 225,
+    height: "100%",
     width: "100%"
   },
   paper: {
-    marginBottom: 20
+    marginBottom: 20,
+    marginTop: 20
   },
   details: {
     display: "block"
@@ -13,7 +17,7 @@ export const styles = {
     paddingLeft: 30
   },
   button: {
-    marginRight: 15
+    margin: 20
   },
   icons: {
     paddingRight: 10

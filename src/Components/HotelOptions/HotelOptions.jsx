@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Zoom from "@material-ui/core/Zoom";
@@ -13,8 +12,8 @@ const HotelOptions = props => {
       {props.options.map((option, index) => (
         <Zoom in timeout={index === 0 ? 500 : index * 750} key={index}>
           <Paper style={styles.paper} elevation={5}>
-            <Grid container>
-              <Grid container item xs={4}>
+            <Grid container style={styles.container}>
+              <Grid container item xs={12} lg={4} md={4}>
                 <img
                   src={option.image}
                   alt={option.hotel}
@@ -24,26 +23,21 @@ const HotelOptions = props => {
               <Grid
                 container
                 item
-                xs={6}
+                xs={12}
+                md={5}
+                lg={5}
                 alignContent='center'
                 style={styles.detailContainer}
               >
                 <HotelDetails option={option} />
               </Grid>
-              <Grid
-                container
-                item
-                xs={2}
-                alignContent='center'
-                justify='flex-end'
-                style={{ padding: 30 }}
-              >
-                <Typography variant='subtitle1'>${option.price}</Typography>
+              <Grid container item xs={12} lg={3} md={3} alignItems='flex-end'>
                 <Button
                   href={option.website}
                   target='_blank'
-                  color='secondary'
+                  color='black'
                   variant='outlined'
+                  style={styles.button}
                 >
                   View Website
                 </Button>

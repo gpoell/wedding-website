@@ -10,27 +10,27 @@ import { styles } from "./styles";
 const HotelDetails = props => {
   const { option } = props;
   return (
-    <div style={styles.details}>
+    <Grid container style={styles.details}>
       <Typography variant='subtitle1'>{option.hotel}</Typography>
-      <Grid container item xs={12}>
+      <Grid container item xs={12} lg={12} xl={12}>
         <LocationOnOutlinedIcon fontSize='small' style={styles.icons} />
         <Typography variant='subtitle2'>{option.location}</Typography>
       </Grid>
-      <Grid container item xs={12}>
+      <Grid container item xs={12} lg={12} xl={12}>
         <PhoneIcon fontSize='small' style={styles.icons} />
         <Typography variant='subtitle2'>{option.phone}</Typography>
       </Grid>
-      <Grid container item xs={12}>
+      <Grid container item xs={12} lg={12} xl={12}>
         <DirectionsWalkIcon fontSize='small' style={styles.icons} />
         <Typography variant='subtitle2'>{option.distance}</Typography>
       </Grid>
       {option.notes && (
-        <Grid container item xs={12}>
+        <Grid container item xs={12} lg={12} xl={12}>
           <NotesIcon fontSize='small' style={styles.icons} />
           <Typography variant='subtitle2'>{option.notes}</Typography>
         </Grid>
       )}
-    </div>
+    </Grid>
   );
 };
 
