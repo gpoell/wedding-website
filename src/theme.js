@@ -80,15 +80,17 @@ export default createMuiTheme({
           fontSize: 12
         }
       },
+      // Subtitle header for details | ex: Weekend Schedule details
       subtitle1: {
         fontFamily: "Verdana",
         fontSize: 24,
-        fontWeight: 500
+        fontWeight: 600,
+        marginBottom: 10
       },
+      // Subtitle body for details | ex: location, time, etc..
       subtitle2: {
         fontFamily: "Verdana",
-        fontSize: 18,
-        fontWeight: 200
+        fontSize: 15
       }
     }
   }

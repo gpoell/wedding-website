@@ -6,6 +6,7 @@ import Sections from "../Components/Sections/Sections";
 import Home from "./Home/Home";
 import Weekend from "./Weekend/Weekend";
 import Travel from "./Travel/Travel.jsx";
+import Accomodations from "./Accomodations/Accomodations";
 import Footer from "../Components/Footer/Footer";
 
 const Content = () => {
@@ -29,6 +30,7 @@ const Content = () => {
         {value === 0 && <Home />}
         {value === 1 && <Weekend />}
         {value === 2 && <Travel />}
+        {value === 3 && <Accomodations />}
       </Sections>
       <Footer />
     </Grid>
