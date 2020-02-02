@@ -7,7 +7,7 @@ export default createMuiTheme({
       dark: "#d4af37"
     },
     secondary: {
-      main: "#d4af37"
+      main: "#f6f6f6"
     },
     grey: {
       main: "#f6f6f6"
@@ -44,10 +44,14 @@ export default createMuiTheme({
         }
       }
     },
+    MuiButton: {
+      root: {
+        fontSize: "1rem"
+      }
+    },
     MuiTypography: {
       // Largest Text - Title of Page (Kelsey and Garrett)
       h1: {
-        // fontFamily: "KaushanScriptRegular",
         fontFamily: "SerenityScriptBold-Regular",
         fontWeight: 550,
         fontSize: 150,
@@ -89,7 +93,7 @@ export default createMuiTheme({
       // Footer
       h5: {
         fontFamily: "Verdana",
-        fontSize: 30,
+        fontSize: 24,
         marginTop: 10,
         "@media (max-width:800px)": {
           fontSize: 18

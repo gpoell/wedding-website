@@ -35,7 +35,8 @@ const HotelOptions = props => {
                 <Button
                   href={option.website}
                   target='_blank'
-                  variant='outlined'
+                  color='secondary'
+                  variant='contained'
                   style={styles.button}
                 >
                   View Website

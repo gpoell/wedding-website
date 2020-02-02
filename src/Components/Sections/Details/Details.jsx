@@ -13,15 +13,15 @@ const Details = props => {
         <Typography variant='subtitle1'>{props.details.header}</Typography>
       </Grid>
       <Grid container item xs={12} style={styles.container}>
-        <EventIcon style={styles.icons} />
+        <EventIcon style={styles.icons} color='primary' />
         <Typography variant='subtitle2'>{props.details.date}</Typography>
       </Grid>
       <Grid container item xs={12} style={styles.container}>
-        <ScheduleIcon style={styles.icons} />
+        <ScheduleIcon style={styles.icons} color='primary' />
         <Typography variant='subtitle2'>{props.details.time}</Typography>
       </Grid>
       <Grid container item xs={12} style={styles.container}>
-        <LocationOnOutlinedIcon style={styles.icons} />
+        <LocationOnOutlinedIcon style={styles.icons} color='primary' />
         <Typography variant='subtitle2'>{props.details.location}</Typography>
       </Grid>
     </>

@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <Grid container style={styles.container}>
       <Grid container item xs={12} justify='center' className='container'>
-        <Typography variant='h5'>Highlands, NC</Typography>
+        <Typography variant='h5'>HIGHLANDS, NC</Typography>
         <img src={imgMountains} alt='Mountains icon' style={styles.icon} />
-        <Typography variant='h5'>September 12, 2020</Typography>
+        <Typography variant='h5'>SEPTEMBER 12, 2020</Typography>
       </Grid>
       <Grid container item xs={12} justify='center'>
         <Typography variant='body2'>
