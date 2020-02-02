@@ -92,24 +92,30 @@ export default createMuiTheme({
       },
       // Footer
       h5: {
-        fontFamily: "Verdana",
+        fontFamily: "Georgia Wide",
+        letterSpacing: 5,
         fontSize: 24,
         marginTop: 10,
         "@media (max-width:800px)": {
-          fontSize: 18
+          fontSize: 18,
+          letterSpacing: 0
         }
       },
+      // Paragraph/normal content found in each section
       body1: {
         fontFamily: "Verdana",
         fontSize: 16,
         fontWeight: 400,
         marginBottom: 20
       },
+      // Footer content
       body2: {
         fontFamily: "Verdana",
-        fontSize: 16,
+        marginTop: 15,
+        fontSize: 12,
         "@media (max-width:800px)": {
-          fontSize: 12
+          fontSize: 10,
+          marginTop: 5
         }
       },
       // Subtitle header for details | ex: Weekend Schedule details
@@ -118,10 +124,13 @@ export default createMuiTheme({
         fontSize: 20,
         marginBottom: 10
       },
-      // Subtitle body for details | ex: location, time, etc..
+      // Subtitle body for details | Details, TravelOptions, HotelDetails
       subtitle2: {
         fontFamily: "Verdana",
-        fontSize: 15
+        fontSize: 15,
+        "@media (max-width:800px)": {
+          fontSize: 12
+        }
       }
     }
   }
