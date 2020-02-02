@@ -23,8 +23,32 @@ const Accomodations = () => {
         venue that we highly recommend. The biggest reason we chose our venue is
         its location in town where everything is walkable. We want everyone to
         enjoy their time at the wedding and not worry about anyone operating a
-        motor vehicle after a few drinks. If you have any questions about these
-        options please let us know.
+        motor vehicle after a few drinks.
+      </Typography>
+      <Typography variant='body1'>
+        Additional lodging options can be found through{" "}
+        <a
+          href='https://www.airbnb.com/'
+          title='Airbnb'
+          target='_blank'
+          rel='noopener noreferrer'
+          style={{ color: "black" }}
+        >
+          Airbnb
+        </a>{" "}
+        and{" "}
+        <a
+          href='https://www.vrbo.com/'
+          target='_blank'
+          title='Vrbo'
+          rel='noopener noreferrer'
+          style={{ color: "black" }}
+        >
+          Vrbo
+        </a>
+        . Please keep in mind that we are not providing any transportaion for
+        the weekend since everything is walkable. For any questions about
+        lodging please reach out to Sharon Manning at (704)-301-4504.
       </Typography>
       <HotelOptions options={options} />
     </Grid>

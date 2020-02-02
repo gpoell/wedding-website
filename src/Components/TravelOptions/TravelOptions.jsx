@@ -33,7 +33,7 @@ const TravelOptions = props => {
               />
               <CardContent>
                 <DriveEtaIcon style={styles.icons} />
-                <Typography variant='body2'>
+                <Typography variant='subtitle2'>
                   {option.drive} | {option.miles}
                 </Typography>
               </CardContent>
