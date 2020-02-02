@@ -41,7 +41,8 @@ const TravelOptions = props => {
                 <Button
                   href={option.rentalCars}
                   target='_blank'
-                  variant='outlined'
+                  color='secondary'
+                  variant='contained'
                   style={styles.button}
                 >
                   Rental Cars
@@ -49,7 +50,8 @@ const TravelOptions = props => {
                 <Button
                   href={option.googleMaps}
                   target='_blank'
-                  variant='outlined'
+                  color='secondary'
+                  variant='contained'
                   style={styles.button}
                 >
                   Google Maps

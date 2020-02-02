@@ -10,7 +10,7 @@ export const options = [
   {
     hotel: "Mitchell's Lodge & Cottage",
     location: "264 Dillard Rd, Highlands, NC 28741",
-    distance: "13 min | 0.6 mile",
+    distance: "13 min | 0.6 miles",
     price: 92,
     website: "https://www.mitchellslodge.com/",
     image: imgMitchellsLodge,
@@ -20,7 +20,7 @@ export const options = [
   {
     hotel: "Highlands Inn Lodge",
     location: "96 Log Cabin Ln, Highlands, NC 28741",
-    distance: "12 min | 0.5 mile",
+    distance: "12 min | 0.5 miles",
     price: 110,
     website: "http://www.highlandsinnlodge.com/",
     image: imgHighlandInnLodge,
@@ -30,7 +30,7 @@ export const options = [
   {
     hotel: "200 Main",
     location: "200 Main St, Highlands, NC 28741",
-    distance: "11 min | 0.5 mile",
+    distance: "11 min | 0.5 miles",
     price: 185,
     website: "https://www.200main.com/",
     image: img200Main,
@@ -40,7 +40,7 @@ export const options = [
   {
     hotel: "The Park On Main",
     location: "205 Main St, Highlands, NC 28741",
-    distance: "9 min | 0.4 mile",
+    distance: "9 min | 0.4 miles",
     price: 400,
     website: "https://www.theparkonmain.com/",
     image: imgParkMain,
@@ -50,7 +50,7 @@ export const options = [
   {
     hotel: "Main Street Inn",
     location: "270 Main St, Highlands, NC 28741",
-    distance: "8 min | 0.4 mile",
+    distance: "8 min | 0.4 miles",
     price: 215,
     website: "https://www.mainstreet-inn.com/en-us",
     image: imgMainStInn,
@@ -60,7 +60,7 @@ export const options = [
   {
     hotel: "Old Edwards Inn And Spa",
     location: "445 Main St, Highlands, NC 28741",
-    distance: "5 min | 0.2 mile",
+    distance: "5 min | 0.2 miles",
     price: 365,
     website: "https://www.oldedwardsinn.com/",
     image: imgOldEdwards,
@@ -70,7 +70,7 @@ export const options = [
   {
     hotel: "The Chandler Inn",
     location: "790 N 4th St, Highlands, NC 28741",
-    distance: "14 min | 0.7 mile",
+    distance: "14 min | 0.7 miles",
     price: 200,
     website: "https://www.thechandlerinn.com/",
     image: imgChandlerInn,

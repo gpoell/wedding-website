@@ -1,6 +1,7 @@
 export const styles = {
   icons: {
-    marginRight: 10
+    marginRight: 10,
+    opacity: 0.6
   },
   card: {
     width: 450,

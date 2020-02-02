@@ -22,7 +22,7 @@ const HotelDetails = props => {
       </Grid>
       <Grid container item xs={12} lg={12} xl={12}>
         <DirectionsWalkIcon fontSize='small' style={styles.icons} />
-        <Typography variant='subtitle2'>{option.distance}</Typography>
+        <Typography variant='subtitle2'>{option.distance} to venue</Typography>
       </Grid>
       {option.notes && (
         <Grid container item xs={12} lg={12} xl={12}>

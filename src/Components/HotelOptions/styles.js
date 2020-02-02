@@ -22,6 +22,7 @@ export const styles = {
     margin: 20
   },
   icons: {
-    paddingRight: 10
+    paddingRight: 10,
+    opacity: 0.6
   }
 };
