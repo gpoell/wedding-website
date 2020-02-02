@@ -1,7 +1,6 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import img from "../../Images/Header/desktop.jpg";
 import { styles } from "./styles";
 
 const HomePageTitle = () => {
@@ -13,7 +12,6 @@ const HomePageTitle = () => {
       alignContent='center'
       alignItems='center'
     >
-      <img src={img} alt='' style={styles.image} />
       <Grid container item lg={8} style={styles.title}>
         <Typography variant='h1'>
           Kelsey <span style={styles.and}>and</span> Garrett

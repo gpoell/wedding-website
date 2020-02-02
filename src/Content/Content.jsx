@@ -10,12 +10,6 @@ import Accomodations from "./Accomodations/Accomodations";
 import Footer from "../Components/Footer/Footer";
 
 const Content = () => {
-  // const isMobileDevice = () => {
-  //   return (
-  //     typeof window.orientation !== "undefined" ||
-  //     navigator.userAgent.indexOf("IEMobile") !== -1
-  //   );
-  // };
   const [value, setValue] = useState(0);
 
   const handleChange = (event, newValue) => {

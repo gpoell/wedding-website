@@ -34,34 +34,62 @@ export default createMuiTheme({
         display: "flex"
       }
     },
+    MuiTab: {
+      root: {
+        fontFamily: "Verdana",
+        marginTop: 10,
+        marginRight: 10,
+        "@media (max-width:800px)": {
+          fontSize: 16
+        }
+      }
+    },
     MuiTypography: {
+      // Largest Text - Title of Page (Kelsey and Garrett)
       h1: {
-        fontFamily: "KaushanScriptRegular",
-        fontSize: 100,
-        letterSpacing: 25,
+        // fontFamily: "KaushanScriptRegular",
+        fontFamily: "SerenityScriptBold-Regular",
+        fontWeight: 550,
+        fontSize: 150,
+        letterSpacing: 5,
         marginBottom: "1rem",
         "@media (max-width:800px)": {
-          fontSize: 60,
+          fontSize: 90,
           fontWeight: 400
         }
       },
+      // Content headers - Travel, Accomodations, Weekend Schedule
       h2: {
-        fontFamily: "Georgia",
-        fontSize: 44,
-        fontWeight: 700,
-        marginBottom: 15
+        fontFamily: "SerenityScriptBold-Regular",
+        fontSize: 80,
+        marginBottom: 15,
+        "@media (max-width:800px)": {
+          fontSize: 70
+        }
       },
+      // Title Subheader - "Highlands, NC | September 2020"
       h3: {
         fontFamily: "Georgia",
         fontSize: 24,
-        fontWeight: 400,
+        fontWeight: 500,
+        color: "#d4af37",
         "@media (max-width:800px)": {
           fontSize: 16
         }
       },
+      // Nav/Tabs, Card Headers
+      h4: {
+        fontFamily: "Verdana",
+        fontSize: 25,
+        marginTop: 10,
+        "@media (max-width:800px)": {
+          fontSize: 18
+        }
+      },
+      // Footer
       h5: {
-        fontFamily: "Georgia",
-        fontSize: 24,
+        fontFamily: "Verdana",
+        fontSize: 30,
         marginTop: 10,
         "@media (max-width:800px)": {
           fontSize: 18
@@ -83,8 +111,7 @@ export default createMuiTheme({
       // Subtitle header for details | ex: Weekend Schedule details
       subtitle1: {
         fontFamily: "Verdana",
-        fontSize: 24,
-        fontWeight: 600,
+        fontSize: 20,
         marginBottom: 10
       },
       // Subtitle body for details | ex: location, time, etc..

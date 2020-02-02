@@ -19,7 +19,13 @@ const TravelOptions = props => {
         <Zoom in timeout={index === 0 ? 500 : index * 750} key={index}>
           <Grid container item md={6}>
             <Card style={styles.card} className='card'>
-              <CardHeader title={option.location} subheader={option.airport} />
+              <CardHeader
+                title={
+                  <Typography variant='subtitle1'>{option.location}</Typography>
+                }
+                subheader={option.airport}
+                disableTypography={true}
+              />
               <CardMedia
                 style={styles.media}
                 image={option.image}
@@ -35,8 +41,7 @@ const TravelOptions = props => {
                 <Button
                   href={option.rentalCars}
                   target='_blank'
-                  color='secondary'
-                  variant='contained'
+                  variant='outlined'
                   style={styles.button}
                 >
                   Rental Cars
@@ -44,8 +49,7 @@ const TravelOptions = props => {
                 <Button
                   href={option.googleMaps}
                   target='_blank'
-                  color='secondary'
-                  variant='contained'
+                  variant='outlined'
                   style={styles.button}
                 >
                   Google Maps
