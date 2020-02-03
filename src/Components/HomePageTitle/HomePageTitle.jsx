@@ -12,7 +12,7 @@ const HomePageTitle = () => {
       alignContent='center'
       alignItems='center'
     >
-      <Grid container item lg={8} style={styles.title}>
+      <Grid container item xs={12} style={styles.title}>
         <Typography variant='h1'>
           Kelsey <span style={styles.and}>and</span> Garrett
         </Typography>
