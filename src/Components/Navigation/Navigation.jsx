@@ -25,14 +25,7 @@ const Navigation = props => {
           aria-label='scrollable tabs for navigating the site'
         >
           {tabs.map(tab => {
-            return (
-              <Tab
-                label={tab}
-                key={tab}
-                name={tab}
-                disabled={tab === "Registry" && true}
-              />
-            );
+            return <Tab label={tab} key={tab} name={tab} />;
           })}
         </Tabs>
       </Grid>

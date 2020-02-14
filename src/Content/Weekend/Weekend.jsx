@@ -24,9 +24,10 @@ const Weekend = () => {
         <ContentContainer>
           <Typography variant='h2'>Lake Day</Typography>
           <Typography variant='body1'>
-            Come join us for a day at the lake on your way to Highlands. There
-            will be plenty of food and hopefully sunshine. The Keowee House is
-            2.5 hours from Charlotte and 1 hour from Highlands.
+            Come join us for a day at Lake Keowee on your way to Highlands.
+            There will be plenty of food and hopefully sunshine. We will be
+            serving lunch around 1:00pm. The lake house is a 2.5 hour drive from
+            Charlotte and 1 hour drive from Highlands.
           </Typography>
           <Typography variant='body1'></Typography>
           <Details details={details.lake} />
@@ -34,9 +35,9 @@ const Weekend = () => {
       </Grid>
       <Grid container item xs={12} style={styles.rows}>
         <ContentContainer>
-          <Typography variant='h2'>Rehearsal Dinner</Typography>
+          <Typography variant='h2'>Welcome Party</Typography>
           <Typography variant='body1'>
-            The rehearsal dinner will take place at Highlands Wine Shoppe
+            As a welcome to Highlands, please join us at Highlands Wine Shoppe
             located in town and within walking distance from your hotels. For
             those that need to drive, there is plenty of public parking along
             Main Street.
@@ -54,8 +55,8 @@ const Weekend = () => {
         <ContentContainer>
           <Typography variant='h2'>Wedding</Typography>
           <Typography variant='body1'>
-            We are very excited to share our special day with you all and we are
-            counting down the days to our big wedding day!
+            We are very excited to share our special day with you! The Ceremony
+            and Reception will be outside on the Piermont Cottage lawn.
           </Typography>
           <Details details={details.wedding} />
         </ContentContainer>

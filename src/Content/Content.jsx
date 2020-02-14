@@ -7,6 +7,7 @@ import Home from "./Home/Home";
 import Weekend from "./Weekend/Weekend";
 import Travel from "./Travel/Travel.jsx";
 import Accomodations from "./Accomodations/Accomodations";
+import Registry from "./Registry/Registry";
 import Footer from "../Components/Footer/Footer";
 
 const Content = () => {
@@ -25,6 +26,7 @@ const Content = () => {
         {value === 1 && <Weekend />}
         {value === 2 && <Travel />}
         {value === 3 && <Accomodations />}
+        {value === 4 && <Registry />}
       </Sections>
       <Footer />
     </Grid>
