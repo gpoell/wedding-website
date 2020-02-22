@@ -23,10 +23,10 @@ export const options = [
     image: airport_clt,
     rentalCars: "https://www.cltairport.com/to-and-from/rental-cars",
     googleMaps:
-      "https://www.google.com/maps/dir/Charlotte+Douglas+Airport+(US+Air+Terminal),+Charlotte,+NC/Highlands,+NC/@35.0474891,-82.6322528,9z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x88569880aa46b997:0x98087530a7be1deb!2m2!1d-80.943078!2d35.221117!1m5!1m1!1s0x88591e43b7493627:0x7a4520f9a0c172d6!2m2!1d-83.1968173!2d35.0525909!3e0"
+      "https://www.google.com/maps/dir/Charlotte+Douglas+Airport+(US+Air+Terminal),+Charlotte,+NC/Highlands,+NC/@35.0458687,-82.4679117,9z/data=!4m15!4m14!1m5!1m1!1s0x88569880aa46b997:0x98087530a7be1deb!2m2!1d-80.943078!2d35.221117!1m5!1m1!1s0x88591e43b7493627:0x7a4520f9a0c172d6!2m2!1d-83.1968173!2d35.0525909!3e0!5i1"
   },
   {
-    location: "Greenvile, SC",
+    location: "Greenville, SC",
     airport: "Greenville-Spartanburg International (GSP)",
     drive: "2h",
     miles: "82 miles",
