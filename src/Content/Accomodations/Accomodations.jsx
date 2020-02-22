@@ -48,7 +48,7 @@ const Accomodations = () => {
         </a>
         . Please keep in mind that we are not providing any transportaion for
         the weekend since everything is walkable. For any questions about
-        lodging please reach out to Sharon Manning at (704)-301-4504.
+        lodging, please reach out to Sharon Manning at (704)-301-4504.
       </Typography>
       <HotelOptions options={options} />
     </Grid>

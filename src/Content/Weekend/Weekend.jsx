@@ -56,7 +56,10 @@ const Weekend = () => {
           <Typography variant='h2'>Wedding</Typography>
           <Typography variant='body1'>
             We are very excited to share our special day with you! The Ceremony
-            and Reception will be outside on the Piermont Cottage lawn.
+            and Reception will be outside on the Piermont Cottage lawn. If
+            you’re staying in town, we recommend walking to the Piermont
+            Cottage. If you plan to drive, parking is available in the office
+            building lot at the corner of 5th and South St.
           </Typography>
           <Details details={details.wedding} />
         </ContentContainer>
