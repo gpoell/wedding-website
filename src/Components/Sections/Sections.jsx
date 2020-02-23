@@ -9,7 +9,7 @@ const Sections = props => {
       item
       style={styles.container}
       xl={8}
-      lg={10}
+      lg={12}
       md={12}
       xs={12}
       justify='center'
