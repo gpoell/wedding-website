@@ -17,7 +17,7 @@ const TravelOptions = props => {
     <>
       {props.options.map((option, index) => (
         <Zoom in timeout={index === 0 ? 500 : index * 750} key={index}>
-          <Grid container item md={6} lg={6} justify='center'>
+          <Grid container item md={6} lg={6}>
             <Card style={styles.card} className='card'>
               <CardHeader
                 title={
