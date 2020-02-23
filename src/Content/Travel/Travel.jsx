@@ -7,7 +7,7 @@ import { styles } from "./styles";
 
 const Travel = () => {
   return (
-    <Grid container item md={10} style={styles.container}>
+    <Grid container item xl={10} lg={10} style={styles.container}>
       <Typography variant='h2'>Travel Recommendations</Typography>
       <Typography variant='body1'>
         We greatly appreciate everyone's effort to travel to Highlands to share
