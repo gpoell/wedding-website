@@ -7,7 +7,7 @@ import { styles } from "./styles";
 const Home = () => {
   return (
     <>
-      <Grid container item xs={10} lg={10} md={8}>
+      <Grid container item xs={10}>
         <Zoom in timeout={750}>
           <img src={home} alt='Kelsey and Garrett' style={styles.photo} />
         </Zoom>

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Grid from "@material-ui/core/Grid";
 import HomePageTitle from "../Components/HomePageTitle/HomePageTitle";
 import Navigation from "../Components/Navigation/Navigation";
@@ -9,10 +9,14 @@ import Travel from "./Travel/Travel.jsx";
 import Accomodations from "./Accomodations/Accomodations";
 import Registry from "./Registry/Registry";
 import Footer from "../Components/Footer/Footer";
+import { mobileDetection } from "../utils/mobileDetection";
 
 const Content = () => {
   const [value, setValue] = useState(0);
-
+  const [mobile, setMobile] = useState(false);
+  useEffect(() => {
+    setMobile(mobileDetection());
+  }, []);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -23,7 +27,7 @@ const Content = () => {
       <Navigation value={value} handleChange={handleChange} />
       <Sections>
         {value === 0 && <Home />}
-        {value === 1 && <Weekend />}
+        {value === 1 && <Weekend mobile={mobile} />}
         {value === 2 && <Travel />}
         {value === 3 && <Accomodations />}
         {value === 4 && <Registry />}

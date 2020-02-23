@@ -7,16 +7,7 @@ import { styles } from "./styles";
 
 const Accomodations = () => {
   return (
-    <Grid
-      container
-      item
-      xs={12}
-      sm={8}
-      md={10}
-      lg={8}
-      xl={10}
-      style={styles.container}
-    >
+    <Grid container item xs={12} lg={10} xl={10} style={styles.container}>
       <Typography variant='h2'>Accomodations</Typography>
       <Typography variant='body1'>
         Below you will find a list of hotels within walking distance to our
