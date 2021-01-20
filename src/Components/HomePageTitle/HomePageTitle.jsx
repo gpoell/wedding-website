@@ -16,7 +16,7 @@ const HomePageTitle = () => {
         <Typography variant='h1'>
           Kelsey <span style={styles.and}>and</span> Garrett
         </Typography>
-        <Typography variant='h3'>Highlands, NC | September 12, 2020</Typography>
+        <Typography variant='h3'>Highlands, NC | September 25, 2021</Typography>
       </Grid>
     </Grid>
   );

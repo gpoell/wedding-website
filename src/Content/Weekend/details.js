@@ -12,11 +12,11 @@ export const details = [
     image: lakehouse,
     details: {
       header: "Manning Family Lake House",
-      date: "Thursday, September 10",
+      date: "Thursday, September 23",
       time: "11:00am - 5:00pm",
       location: "1999 Hampton Shores Drive | Seneca, SC 29672",
-      notes: "Bring your swim suits and BYOB"
-    }
+      notes: "Bring your swim suits and BYOB",
+    },
   },
   {
     title: "Welcome Party",
@@ -27,11 +27,11 @@ export const details = [
     image: wineShoppe,
     details: {
       header: "Highlands Wine Shoppe",
-      date: "Friday, September 11",
+      date: "Friday, September 24",
       time: "7:00pm - 10:00pm",
       location: "269 Oak St | Highlands, NC 28741",
-      notes: "Dressy casual attire"
-    }
+      notes: "Dressy casual attire",
+    },
   },
   {
     title: "Wedding",
@@ -43,10 +43,10 @@ export const details = [
     image: venue,
     details: {
       header: "Piermont Cottage",
-      date: "Saturday, September 12",
+      date: "Saturday, September 25",
       time: "Ceremony 5:00pm",
       location: "447 South St | Highlands, NC 28741",
-      notes: "Cocktail attire"
-    }
-  }
+      notes: "Cocktail attire",
+    },
+  },
 ];
