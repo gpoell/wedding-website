@@ -1,7 +1,7 @@
 import React from "react";
 import Grid from "@material-ui/core/Grid";
 import Zoom from "@material-ui/core/Zoom";
-import registry from "../../Images/Registry/registry.png";
+import registry from "../../Images/Registry/registry.PNG";
 import { styles } from "./styles";
 import "./registry.css";
 
