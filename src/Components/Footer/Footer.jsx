@@ -12,30 +12,6 @@ const Footer = () => {
         <img src={imgMountains} alt='Mountains icon' style={styles.icon} />
         <Typography variant='h5'>SEPTEMBER 25, 2021</Typography>
       </Grid>
-      <Grid container item xs={12} justify='center'>
-        <Typography variant='body2'>
-          Icons by{" "}
-          <a
-            href='https://www.flaticon.com/authors/freepik'
-            title='Freepik'
-            target='_blank'
-            rel='noopener noreferrer'
-            style={{ color: "black" }}
-          >
-            Freepik
-          </a>{" "}
-          | Photos by{" "}
-          <a
-            href='https://www.instagram.com/eleanorkathphotography/'
-            title='eleanorkathphotography'
-            target='_blank'
-            rel='noopener noreferrer'
-            style={{ color: "black" }}
-          >
-            eleanorkathphotography
-          </a>
-        </Typography>
-      </Grid>
     </Grid>
   );
 };

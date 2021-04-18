@@ -97,7 +97,7 @@ export default createMuiTheme({
         fontSize: 24,
         marginTop: 10,
         "@media (max-width:800px)": {
-          fontSize: 18,
+          fontSize: 14,
           letterSpacing: 0
         }
       },

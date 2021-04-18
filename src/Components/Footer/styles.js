@@ -1,8 +1,8 @@
 export const styles = {
   container: {
     backgroundColor: "#F5DEB3",
-    paddingTop: 60,
-    paddingBottom: 60,
+    paddingTop: 40,
+    paddingBottom: 40,
     display: "block",
     textAlign: "center"
   },
