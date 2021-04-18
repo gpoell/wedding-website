@@ -11,7 +11,7 @@ export const details = [
       Main and Oak Street.`,
     image: playhouse,
     details: {
-      header: "Highlands Wine Shoppe",
+      header: "Highlands Playhouse",
       date: "Friday, September 24",
       time: "6:00pm - 9:00pm",
       location: "362 Oak St | Highlands, NC 28741",
