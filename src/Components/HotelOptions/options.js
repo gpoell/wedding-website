@@ -1,6 +1,6 @@
 import imgMitchellsLodge from "../../Images/Accommodations/mitchell_lodge.jpg";
 import imgHighlandInnLodge from "../../Images/Accommodations/highlands-inn-lodge.jpg";
-// import img200Main from "../../Images/Accommodations/200-main.jpg";
+import img200Main from "../../Images/Accommodations/200-main.jpg";
 import imgParkMain from "../../Images/Accommodations/park-on-main.jpg";
 import imgOldEdwards from "../../Images/Accommodations/old-edwards-inn.jpg";
 import imgWellsHotel from "../../Images/Accommodations/wellshotel.jpg";
@@ -27,16 +27,16 @@ export const options = [
     phone: "(828) 526-5899",
     notes: "Call for reservation and rates"
   },
-  // {
-  //   hotel: "200 Main",
-  //   location: "200 Main St, Highlands, NC 28741",
-  //   distance: "11 min | 0.5 miles",
-  //   price: 185,
-  //   website: "https://www.200main.com/",
-  //   image: img200Main,
-  //   phone: "(855) 271-2809",
-  //   notes: "Call for room block reservation"
-  // },
+  {
+    hotel: "200 Main",
+    location: "200 Main St, Highlands, NC 28741",
+    distance: "11 min | 0.5 miles",
+    price: 185,
+    website: "https://www.200main.com/",
+    image: img200Main,
+    phone: "(855) 271-2809",
+    notes: "Call for room block reservation"
+  },
   {
     hotel: "The Park On Main",
     location: "205 Main St, Highlands, NC 28741",
