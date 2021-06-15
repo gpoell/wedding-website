@@ -29,7 +29,7 @@ export const details = [
     details: {
       header: "Piermont Cottage",
       date: "Saturday, September 25",
-      time: "Ceremony 5:00pm",
+      time: "Ceremony 5:30pm",
       location: "447 South St | Highlands, NC 28741",
       notes: "Cocktail attire",
     },
