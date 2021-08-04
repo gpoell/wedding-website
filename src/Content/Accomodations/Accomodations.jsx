@@ -37,7 +37,7 @@ const Accomodations = () => {
         >
           Vrbo
         </a>
-        . Please keep in mind that we are not providing any transportaion for
+        . Please keep in mind that we are not providing any transportation for
         the weekend since everything is walkable. For any questions about
         lodging, please reach out to Sharon Manning at (704)-301-4504.
       </Typography>
